@@ -11,7 +11,6 @@ import {
   Link,
   Switch,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
 import signInImage from "assets/img/signInImage.png";
@@ -30,8 +29,9 @@ function SignIn() {
   const history = useHistory();
   const { user, setUser } = useAuth();
   // Chakra color mode
-  const titleColor = useColorModeValue("teal.300", "teal.200");
-  const textColor = useColorModeValue("gray.400", "white");
+  const titleColor = "#457F3F";
+  const textColor = "#457F3F";
+
 
   const handleChange = e => {
     setFormData({
@@ -87,7 +87,7 @@ function SignIn() {
             p='48px'
             mt={{ md: "150px", lg: "80px" }}>
             <Heading color={titleColor} fontSize='32px' mb='10px'>
-              You are already signed in.
+              Você já está inscrito.
             </Heading>
           </Flex>
         </Flex>
@@ -104,7 +104,7 @@ function SignIn() {
             p='48px'
             mt={{ md: "150px", lg: "80px" }}>
             <Heading color={titleColor} fontSize='32px' mb='10px'>
-              Welcome Back
+              Bem-vindo de volta
             </Heading>
             <Text
               mb='36px'
@@ -112,7 +112,7 @@ function SignIn() {
               color={textColor}
               fontWeight='bold'
               fontSize='14px'>
-              add your credentials
+              adicione suas credenciais
             </Text>
             <FormControl>
               <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
@@ -123,21 +123,21 @@ function SignIn() {
                 mb='24px'
                 fontSize='sm'
                 type='text'
-                placeholder='Your email adress'
+                placeholder='Seu endereço de email'
                 size='lg'
                 onChange={handleChange}
                 name="email"
                 value={formData?.email}
               />
               <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-                Password
+                Senha
               </FormLabel>
               <Input
                 borderRadius='15px'
                 mb='36px'
                 fontSize='sm'
                 type='password'
-                placeholder='Your password'
+                placeholder='Sua senha'
                 size='lg'
                 onChange={handleChange}
                 name="password"
@@ -150,7 +150,7 @@ function SignIn() {
                   mb='0'
                   ms='1'
                   fontWeight='normal'>
-                  Remember me
+                  Lembre de mim
                 </FormLabel>
               </FormControl>
               <Flex
@@ -164,23 +164,26 @@ function SignIn() {
                 </Text>
               </Flex>
               <Button
-                onClick={handleSubmit}
-                fontSize='10px'
-                type='submit'
-                bg='teal.300'
-                w='100%'
-                h='45'
-                mb='20px'
-                color='white'
-                mt='20px'
-                _hover={{
-                  bg: "teal.200",
-                }}
-                _active={{
-                  bg: "teal.400",
-                }}>
-                SIGN IN
-              </Button>
+              onClick={handleSubmit}
+              fontSize='10px'
+              type='submit'
+              bg='#457F3F'  // Cor de fundo normal
+              w='100%'
+              h='45'
+              mb='20px'
+              color='white'
+              mt='20px'
+              _hover={{
+                bg: "#457F3F",  // Cor de fundo quando o mouse está sobre o botão
+                opacity: 0.8,  // Você pode adicionar uma opacidade para diferenciar o estado hover
+              }}
+              _active={{
+                bg: "#457F3F",  // Cor de fundo quando o botão é clicado
+                opacity: 0.6,  // Você pode adicionar uma opacidade para diferenciar o estado ativo
+              }}>
+              ENTRAR
+            </Button>
+
             </FormControl>
             <Flex
               flexDirection='column'
@@ -189,9 +192,9 @@ function SignIn() {
               maxW='100%'
               mt='0px'>
               <Text color={textColor} fontWeight='medium'>
-                Don't have an account?
+                Não tem uma conta?
                 <Link color={titleColor} href="#/auth/signup" ms='5px' fontWeight='bold'>
-                  Sign Up
+                  Registrar
                 </Link>
               </Text>
             </Flex>

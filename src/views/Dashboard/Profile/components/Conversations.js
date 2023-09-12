@@ -45,7 +45,7 @@ const Conversations = ({ title }) => {
                   Sophie B.{" "}
                 </Text>
                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                  Hi! I need more information...
+                Oi! Preciso de mais informações...
                 </Text>
               </Flex>
             </Flex>
@@ -53,9 +53,9 @@ const Conversations = ({ title }) => {
               <Text
                 fontSize='sm'
                 fontWeight='600'
-                color='teal.300'
+                color='#457F3F'
                 alignSelf='center'>
-                REPLY
+                RESPONDER
               </Text>
             </Button>
           </Flex>
@@ -73,7 +73,7 @@ const Conversations = ({ title }) => {
                   Sophie B.{" "}
                 </Text>
                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                  Awesome work, can you change...
+                Excelente trabalho, você pode mudar...
                 </Text>
               </Flex>
             </Flex>
@@ -81,9 +81,9 @@ const Conversations = ({ title }) => {
               <Text
                 fontSize='sm'
                 fontWeight='600'
-                color='teal.300'
+                color='#457F3F'
                 alignSelf='center'>
-                REPLY
+                RESPONDER
               </Text>
             </Button>
           </Flex>
@@ -101,7 +101,7 @@ const Conversations = ({ title }) => {
                   Sophie B.{" "}
                 </Text>
                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                  Have a great afternoon...
+                Tenha uma ótima tarde...
                 </Text>
               </Flex>
             </Flex>
@@ -109,9 +109,9 @@ const Conversations = ({ title }) => {
               <Text
                 fontSize='sm'
                 fontWeight='600'
-                color='teal.300'
+                color='#457F3F'
                 alignSelf='center'>
-                REPLY
+                RESPONDER
               </Text>
             </Button>
           </Flex>
@@ -129,7 +129,7 @@ const Conversations = ({ title }) => {
                   Sophie B.{" "}
                 </Text>
                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                  About files I can...
+                Sobre arquivos eu posso...
                 </Text>
               </Flex>
             </Flex>
@@ -137,9 +137,9 @@ const Conversations = ({ title }) => {
               <Text
                 fontSize='sm'
                 fontWeight='600'
-                color='teal.300'
+                color='#457F3F'
                 alignSelf='center'>
-                REPLY
+                RESPONDER
               </Text>
             </Button>
           </Flex>
@@ -157,7 +157,7 @@ const Conversations = ({ title }) => {
                   Sophie B.{" "}
                 </Text>
                 <Text fontSize='xs' color='gray.500' fontWeight='400'>
-                  About files I can...
+                Sobre arquivos eu posso...
                 </Text>
               </Flex>
             </Flex>
@@ -165,9 +165,9 @@ const Conversations = ({ title }) => {
               <Text
                 fontSize='sm'
                 fontWeight='600'
-                color='teal.300'
+                color='#457F3F'
                 alignSelf='center'>
-                REPLY
+                RESPONDER
               </Text>
             </Button>
           </Flex>

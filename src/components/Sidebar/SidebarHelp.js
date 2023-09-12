@@ -20,17 +20,17 @@ export function SidebarHelp(props) {
       w="100%"
     >
       <IconBox width="35px" h="35px" bg="white" mb="auto">
-        <QuestionIcon color="teal.300" h="18px" w="18px" />
+        <QuestionIcon color="#457F3F" h="18px" w="18px" />
       </IconBox>
       <Text fontSize="sm" color="white" fontWeight="bold">
-        Need help?
+        Precisa de ajuda?
       </Text>
       <Text fontSize="xs" color="white" mb="10px">
-        Please check our docs
+        Por favor entre em contato
       </Text>
       <Link
         w="100%"
-        href="https://github.com/app-generator/react-purity-dashboard"
+        href=""
       >
         <Button
           fontSize="10px"
@@ -48,7 +48,7 @@ export function SidebarHelp(props) {
           }}
           color="black"
         >
-          DOCUMENTATION
+          CONTATO
         </Button>
       </Link>
     </Flex>

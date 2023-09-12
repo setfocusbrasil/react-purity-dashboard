@@ -29,38 +29,38 @@ function Profile() {
         email={"esthera@simmmple.com"}
         tabs={[
           {
-            name: "OVERVIEW",
+            name: "VISÃO GERAL",
             icon: <FaCube w='100%' h='100%' />,
           },
           {
-            name: "TEAMS",
+            name: "EQUIPES",
             icon: <IoDocumentsSharp w='100%' h='100%' />,
           },
           {
-            name: "PROJECTS",
+            name: "PROJETOS",
             icon: <FaPenFancy w='100%' h='100%' />,
           },
         ]}
       />
       <Grid templateColumns={{ sm: "1fr", xl: "repeat(3, 1fr)" }} gap='22px'>
         <PlatformSettings
-          title={"Platform Settings"}
-          subtitle1={"ACCOUNT"}
-          subtitle2={"APPLICATION"}
+          title={"Configurações da plataforma"}
+          subtitle1={"CONTA"}
+          subtitle2={"APLICATIVO"}
         />
         <ProfileInformation
-          title={"Profile Information"}
+          title={"Informação do Perfil"}
           description={
-            "Hi, I’m Esthera Jackson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
+            "Olá, esse é um exemplo de pagina de perfil para um componente de Rede Social dentro do Painel Administrativo."
           }
           name={"Esthera Jackson"}
-          mobile={"(44) 123 1234 123"}
-          email={"esthera@simmmple.com"}
-          location={"United States"}
+          mobile={"(14) 98234-5678"}
+          email={"esthera@gmail.com"}
+          location={"Brasil"}
         />
-        <Conversations title={"Conversations"} />
+        <Conversations title={"Conversas"} />
       </Grid>
-      <Projects title={"Projects"} description={"Architects design houses"} />
+      <Projects title={"Projetos"} description={"Arquitetos projetam casas"} />
     </Flex>
   );
 }

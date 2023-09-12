@@ -6,7 +6,7 @@ import CardHeader from "components/Card/CardHeader.js";
 import React from "react";
 
 const SalesOverview = ({ title, percentage, chart }) => {
-  const textColor = useColorModeValue("gray.700", "white");
+  const textColor =  "#457F3F";
   return (
     <Card p='28px 10px 16px 0px' mb={{ sm: "26px", lg: "0px" }}>
       <CardHeader mb='20px' pl='22px'>
@@ -19,9 +19,9 @@ const SalesOverview = ({ title, percentage, chart }) => {
               as='span'
               color={percentage > 0 ? "green.400" : "red.400"}
               fontWeight='bold'>
-              {`${percentage}%`} more
+              {`${percentage}%`} mais
             </Text>{" "}
-            in 2021
+            em 2022
           </Text>
         </Flex>
       </CardHeader>

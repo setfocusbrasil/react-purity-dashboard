@@ -28,73 +28,17 @@ export default function Footer(props) {
         mb={{ base: "20px", xl: "0px" }}
       >
         &copy;
-        <Link
-          // color={linkTeal}
-          color="teal.400"
-          href="https://www.creative-tim.com?AFFILIATE=128200"
-          target="_blank"
-        >
-          {document.documentElement.dir === "rtl"
-            ? " توقيت الإبداعية"
-            : "Creative Tim "}
-        </Link>
-        &
-        <Link
-          // color={linkTeal}
-          color="teal.400"
-          href="https://www.simmmple.com"
-          target="_blank"
-        >
-          {document.documentElement.dir === "rtl" ? "سيممبل " : " Simmmple"}
-        </Link>
         {document.documentElement.dir === "rtl"
           ? "للحصول على ويب أفضل"
-          : " for a better web"}
+          : " Desenvolvido e Editado por Matheus M. Santos. Versão Demonstrativa *Funções e Ferramentas apenas para demonstração"}
       </Text>
       <List display="flex">
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}
-        >
-          <Link color="gray.400" href="https://www.creative-tim.com?AFFILIATE=128200">
-            {document.documentElement.dir === "rtl"
-              ? "توقيت الإبداعية"
-              : "Creative Tim"}
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}
-        >
-          <Link color="gray.400" href="https://www.simmmple.com">
-            {document.documentElement.dir === "rtl" ? "سيممبل" : "Simmmple"}
-          </Link>
-        </ListItem>
-        <ListItem
-          me={{
-            base: "20px",
-            md: "44px",
-          }}
-        >
-          <Link
-            color="gray.400"
-            href="#blog"
-            href="https://creative-tim.com/blog?AFFILIATE=128200"
-          >
-            {document.documentElement.dir === "rtl" ? "مدونة" : "Blog"}
-          </Link>
-        </ListItem>
         <ListItem>
           <Link
             color="gray.400"
-            href="#license"
-            href="https://www.creative-tim.com/license?AFFILIATE=128200"
+            href="https://www.linkedin.com/in/matheus-miguel-dos-santos-12033b117/"
           >
-            {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
+            {document.documentElement.dir === "rtl" ? "رخصة" : "Linkedin"}
           </Link>
         </ListItem>
       </List>

@@ -2,7 +2,7 @@
 import { ChakraProvider, Portal, useDisclosure } from '@chakra-ui/react';
 import { RtlProvider } from 'components/RTLProvider/RTLProvider';
 import Configurator from 'components/Configurator/Configurator';
-import Footer from 'components/Footer/Footer.js';
+
 // Layout components
 import AdminNavbar from 'components/Navbars/AdminNavbar.js';
 import Sidebar from 'components/Sidebar';
@@ -90,7 +90,7 @@ export default function Dashboard(props) {
 			<RtlProvider>
 				<Sidebar
 					routes={routes}
-					logoText={'PURITY UI DASHBOARD'}
+					logoText={'Painel UDOP'}
 					display='none'
 					sidebarVariant={sidebarVariant}
 					{...rest}
@@ -104,7 +104,7 @@ export default function Dashboard(props) {
 					<Portal>
 						<AdminNavbar
 							onOpen={onOpen}
-							logoText={'PURITY UI DASHBOARD'}
+							logoText={'Painel UDOP'}
 							brandText={getActiveRoute(routes)}
 							secondary={getActiveNavbar(routes)}
 							fixed={fixed}
@@ -121,7 +121,7 @@ export default function Dashboard(props) {
 							</PanelContainer>
 						</PanelContent>
 					) : null}
-					<Footer />
+					
 					<Portal>
 						<FixedPlugin secondary={getActiveNavbar(routes)} fixed={fixed} onOpen={onOpen} />
 					</Portal>

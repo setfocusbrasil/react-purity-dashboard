@@ -32,44 +32,44 @@ import { SiDropbox } from "react-icons/si";
 export const dashboardTableData = [
   {
     logo: AdobexdLogo,
-    name: "Purity UI Version",
+    name: "Projeto feito em Adobe XD",
     members: [avatar1, avatar2, avatar3, avatar4, avatar5],
-    budget: "$14,000",
+    budget: "R$14,000",
     progression: 60,
   },
   {
     logo: AtlassianLogo,
-    name: "Add Progress Track",
+    name: "Adicionar acompanhamento de progresso",
     members: [avatar3, avatar2],
-    budget: "$3,000",
+    budget: "R$3,000",
     progression: 10,
   },
   {
     logo: SlackLogo,
-    name: "Fix Platform Errors",
+    name: "Corrigir erros de plataforma",
     members: [avatar10, avatar4],
-    budget: "Not set",
+    budget: "R$0",
     progression: 100,
   },
   {
     logo: SpotifyLogo,
-    name: "Launch our Mobile App",
+    name: "Lançamento do Aplicativo Mobile",
     members: [avatar2, avatar3, avatar7, avatar8],
-    budget: "$32,000",
+    budget: "R$32,000",
     progression: 100,
   },
   {
     logo: JiraLogo,
-    name: "Add the New Pricing Page",
+    name: "Adicione a nova página de preços",
     members: [avatar10, avatar3, avatar7, avatar2, avatar8],
-    budget: "$400",
+    budget: "R$400",
     progression: 25,
   },
   {
     logo: InvisionLogo,
-    name: "Redesign New Online Shop",
+    name: "Redesenhar a nova loja online",
     members: [avatar9, avatar3, avatar2],
-    budget: "$7,600",
+    budget: "R$7,600",
     progression: 40,
   },
 ];
@@ -77,38 +77,38 @@ export const dashboardTableData = [
 export const timelineData = [
   {
     logo: FaBell,
-    title: "$2400, Design changes",
-    date: "22 DEC 7:20 PM",
+    title: "R$2400, Alterações de design",
+    date: "22 DEZ 7:20 PM",
     color: "teal.300",
   },
   {
     logo: FaHtml5,
-    title: "New order #4219423",
-    date: "21 DEC 11:21 PM",
+    title: "Nova Ordem #4219423",
+    date: "21 DEZ 11:21 PM",
     color: "orange",
   },
   {
     logo: FaShoppingCart,
-    title: "Server Payments for April",
-    date: "21 DEC 9:28 PM",
+    title: "Pagamentos de servidor para Abril",
+    date: "21 DEZ 9:28 PM",
     color: "blue.400",
   },
   {
     logo: FaCreditCard,
-    title: "New card added for order #3210145",
-    date: "20 DEC 3:52 PM",
+    title: "Novo Cartão de Credito adicionado para a ordem #3210145",
+    date: "20 DEZ 3:52 PM",
     color: "orange.300",
   },
   {
     logo: SiDropbox,
-    title: "Unlock packages for Development",
-    date: "19 DEC 11:35 PM",
+    title: "Desbloquear pacotes para desenvolvimento",
+    date: "19 DEZ 11:35 PM",
     color: "purple",
   },
   {
     logo: AdobexdLogo,
-    title: "New order #9851258",
-    date: "18 DEC 4:41 PM",
+    title: "Nova Ordem #9851258",
+    date: "18 DEZ 4:41 PM",
   },
 ];
 export const rtlDashboardTableData = [
@@ -156,43 +156,6 @@ export const rtlDashboardTableData = [
   },
 ];
 
-export const rtlTimelineData = [
-  {
-    logo: FaBell,
-    title: "$2400, تغييرات في التصميم",
-    date: "22 DEC 7:20 PM",
-    color: "teal.300",
-  },
-  {
-    logo: FaHtml5,
-    title: "طلب جديد #4219423",
-    date: "21 DEC 11:21 PM",
-    color: "orange",
-  },
-  {
-    logo: FaShoppingCart,
-    title: "مدفوعات الخادم لشهر أبريل",
-    date: "21 DEC 9:28 PM",
-    color: "blue.400",
-  },
-  {
-    logo: FaCreditCard,
-    title: "تمت إضافة بطاقة جديدة للطلب #3210145",
-    date: "20 DEC 3:52 PM",
-    color: "orange.300",
-  },
-  {
-    logo: SiDropbox,
-    title: "فتح الحزم من أجل التنمية",
-    date: "19 DEC 11:35 PM",
-    color: "purple",
-  },
-  {
-    logo: AdobexdLogo,
-    title: "طلب جديد #9851258",
-    date: "18 DEC 4:41 PM",
-  },
-];
 
 export const tablesTableData = [
   {

@@ -56,7 +56,7 @@ const WorkWithTheRockets = ({ title, description, backgroundImage }) => {
                   fontWeight='bold'
                   _hover={{ me: "4px" }}
                   transition='all .5s ease'>
-                  Read more
+                  Leia mais
                 </Text>
                 <Icon
                   as={BsArrowRight}

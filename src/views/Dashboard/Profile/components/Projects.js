@@ -45,28 +45,28 @@ const Projects = ({ title, description }) => {
           gap='24px'>
           <ProjectCard
             image={imageArchitect1}
-            name={"Project #1"}
-            category={"Modern"}
+            name={"Projeto #1"}
+            category={"Moderno"}
             description={
-              "As Uber works through a huge amount of internal management turmoil."
+              "Enquanto o Uber enfrenta uma enorme turbulência de gestão interna."
             }
             avatars={[avatar2, avatar4, avatar6]}
           />
           <ProjectCard
             image={imageArchitect2}
-            name={"Project #2"}
-            category={"Scandinavian"}
+            name={"Projeto #2"}
+            category={"Escandinavo"}
             description={
-              "Music is something that every person has his or her own specific opinion about."
+              "Música é algo sobre o qual cada pessoa tem sua opinião específica."
             }
             avatars={[avatar4, avatar2, avatar6, avatar4]}
           />
           <ProjectCard
             image={imageArchitect3}
-            name={"Project #3"}
-            category={"Minimalist"}
+            name={"Projeto #3"}
+            category={"Minimalista"}
             description={
-              "Different people have different taste, especially various types of music."
+              "Pessoas diferentes têm gostos diferentes, especialmente vários tipos de música."
             }
             avatars={[avatar2, avatar4, avatar6]}
           />
@@ -80,7 +80,7 @@ const Projects = ({ title, description }) => {
             <Flex direction='column' justifyContent='center' align='center'>
               <Icon as={FaPlus} fontSize='lg' mb='12px' />
               <Text fontSize='lg' fontWeight='bold'>
-                Create a New Project
+              Crie um novo projeto
               </Text>
             </Flex>
           </Button>

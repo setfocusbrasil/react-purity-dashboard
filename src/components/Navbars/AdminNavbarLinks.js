@@ -130,7 +130,7 @@ export default function HeaderLinks(props) {
           )
         }
       >
-        <Text display={{ sm: "none", md: "flex" }}>Logout</Text>
+        <Text display={{ sm: "none", md: "flex" }}>Deslogar</Text>
       </Button>
       ) : (
       <NavLink to="/auth/signin">
@@ -166,16 +166,7 @@ export default function HeaderLinks(props) {
         // logo={logo}
         {...rest}
       />
-      <SettingsIcon
-        cursor="pointer"
-        ms={{ base: "16px", xl: "0px" }}
-        me="16px"
-        ref={settingsRef}
-        onClick={props.onOpen}
-        color={navbarIcon}
-        w="18px"
-        h="18px"
-      />
+      
       <Menu>
         <MenuButton>
           <BellIcon color={navbarIcon} w="18px" h="18px" />
@@ -184,26 +175,26 @@ export default function HeaderLinks(props) {
           <Flex flexDirection="column">
             <MenuItem borderRadius="8px" mb="10px">
               <ItemContent
-                time="13 minutes ago"
-                info="from Alicia"
-                boldInfo="New Message"
+                time="13 minutos atrás"
+                info="De Alicia"
+                boldInfo="Nova Mensagem"
                 aName="Alicia"
                 aSrc={avatar1}
               />
             </MenuItem>
             <MenuItem borderRadius="8px" mb="10px">
               <ItemContent
-                time="2 days ago"
-                info="by Josh Henry"
-                boldInfo="New Album"
+                time="2 dias atrás"
+                info="De Josh Henry"
+                boldInfo="Novo Album"
                 aName="Josh Henry"
                 aSrc={avatar2}
               />
             </MenuItem>
             <MenuItem borderRadius="8px">
               <ItemContent
-                time="3 days ago"
-                info="Payment succesfully completed!"
+                time="3 dias atrás"
+                info="Pagamento efetuado com Sucesso!"
                 boldInfo=""
                 aName="Kara"
                 aSrc={avatar3}

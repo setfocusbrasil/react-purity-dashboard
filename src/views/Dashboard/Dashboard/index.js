@@ -35,25 +35,25 @@ export default function Dashboard() {
     <Flex flexDirection='column' pt={{ base: "120px", md: "75px" }}>
       <SimpleGrid columns={{ sm: 1, md: 2, xl: 4 }} spacing='24px'>
         <MiniStatistics
-          title={"Today's Moneys"}
-          amount={"$53,000"}
+          title={"Total de Dinheiro HOJE"}
+          amount={"R$53,000"}
           percentage={55}
           icon={<WalletIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
         />
         <MiniStatistics
-          title={"Today's Users"}
+          title={"Total de Usuários HOJE"}
           amount={"2,300"}
           percentage={5}
           icon={<GlobeIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
         />
         <MiniStatistics
-          title={"New Clients"}
+          title={"Novos Clientes"}
           amount={"+3,020"}
           percentage={-14}
           icon={<DocumentIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
         />
         <MiniStatistics
-          title={"Total Sales"}
+          title={"Total de Vendas"}
           amount={"$173,000"}
           percentage={8}
           icon={<CartIcon h={"24px"} w={"24px"} color={iconBoxInside} />}
@@ -65,10 +65,10 @@ export default function Dashboard() {
         my='26px'
         gap='24px'>
         <BuiltByDevelopers
-          title={"Built by Developers"}
-          name={"Purity UI Dashboard"}
+          title={"Criado por Matheus M."}
+          name={"Utilitarios - PAINEL UDOP"}
           description={
-            "From colors, cards, typography to complex elements, you will find the full documentation."
+            "Pagina de exemplo para diferentes ferramentas , graficos , tabela de dados que poderam ser utilizados no projeto final."
           }
           image={
             <Image
@@ -80,9 +80,9 @@ export default function Dashboard() {
         />
         <WorkWithTheRockets
           backgroundImage={peopleImage}
-          title={"Work with the rockets"}
+          title={"A PRODUTIVIDADE NÃO PODE PARAR."}
           description={
-            "Wealth creation is a revolutionary recent positive-sum game. It is all about who takes the opportunity first."
+            "Peças de alta performance para os setores agrícola, automotivo e industrial."
           }
         />
       </Grid>
@@ -92,12 +92,12 @@ export default function Dashboard() {
         gap='24px'
         mb={{ lg: "26px" }}>
         <ActiveUsers
-          title={"Active Users"}
+          title={"Usuários ativos"}
           percentage={23}
           chart={<BarChart />}
         />
         <SalesOverview
-          title={"Sales Overview"}
+          title={"Visão geral das vendas"}
           percentage={5}
           chart={<LineChart />}
         />
@@ -107,13 +107,13 @@ export default function Dashboard() {
         templateRows={{ sm: "1fr auto", md: "1fr", lg: "1fr" }}
         gap='24px'>
         <Projects
-          title={"Projects"}
+          title={"Projetos"}
           amount={30}
-          captions={["Companies", "Members", "Budget", "Completion"]}
+          captions={["Companias", "Membros", "Orçamento", "Conclusão"]}
           data={dashboardTableData}
         />
         <OrdersOverview
-          title={"Orders Overview"}
+          title={"Visão geral dos pedidos"}
           amount={30}
           data={timelineData}
         />

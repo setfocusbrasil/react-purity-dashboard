@@ -29,8 +29,8 @@ function SignUp() {
   const history = useHistory();
   const { user } = useAuth();
 
-  const titleColor = useColorModeValue("teal.300", "teal.200");
-  const textColor = useColorModeValue("gray.700", "white");
+  const titleColor = "#457F3F";
+  const textColor = "#457F3F";
   const bgColor = useColorModeValue("white", "gray.700");
   const bgIcons = useColorModeValue("teal.200", "rgba(255, 255, 255, 0.5)");
 
@@ -86,7 +86,7 @@ function SignUp() {
         mt='6.5rem'
         mb='30px'>
         <Text fontSize='4xl' color='white' fontWeight='bold'>
-          Welcome!
+          
         </Text>
         <Text
           fontSize='md'
@@ -95,8 +95,7 @@ function SignUp() {
           mt='10px'
           mb='26px'
           w={{ base: "90%", sm: "60%", lg: "40%", xl: "30%" }}>
-          Use these awesome forms to login or create new account in your project
-          for free.
+          
         </Text>
       </Flex>
       <Flex alignItems='center' justifyContent='center' mb='60px' mt='20px'>
@@ -107,7 +106,7 @@ function SignUp() {
             fontWeight='bold'
             textAlign='center'
             mb='22px'>
-              You are already signed in.
+              Você já esta registrado.
           </Text>
         ) : (
         <Flex
@@ -125,7 +124,7 @@ function SignUp() {
             fontWeight='bold'
             textAlign='center'
             mb='22px'>
-            Register
+            Registrar
           </Text>
           <Text
             fontSize='lg'
@@ -133,18 +132,18 @@ function SignUp() {
             fontWeight='bold'
             textAlign='center'
             mb='22px'>
-            add your credentials
+            Adicione suas credenciais
           </Text>
           <FormControl>
             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-              Name
+              Nome
             </FormLabel>
             <Input
               fontSize='sm'
               ms='4px'
               borderRadius='15px'
               type='text'
-              placeholder='Your full name'
+              placeholder='Seu nome e sobrenome'
               mb='24px'
               size='lg'
               name="username"
@@ -158,21 +157,21 @@ function SignUp() {
               ms='4px'
               borderRadius='15px'
               type='email'
-              placeholder='Your email address'
+              placeholder='Seu endereço de email'
               mb='24px'
               size='lg'
               name="email"
               onChange={handleChange}
             />
             <FormLabel ms='4px' fontSize='sm' fontWeight='normal'>
-              Password
+              Senha
             </FormLabel>
             <Input
               fontSize='sm'
               ms='4px'
               borderRadius='15px'
               type='password'
-              placeholder='Your password'
+              placeholder='Sua senha'
               mb='24px'
               size='lg'
               name="password"
@@ -181,7 +180,7 @@ function SignUp() {
             <FormControl display='flex' alignItems='center' mb='24px'>
               <Switch id='remember-login' colorScheme='teal' me='10px' />
               <FormLabel htmlFor='remember-login' mb='0' fontWeight='normal'>
-                Remember me
+                Lembre de mim
               </FormLabel>
             </FormControl>
             <Flex
@@ -196,23 +195,26 @@ function SignUp() {
             </Flex>
             <Button
               onClick={handleSubmit}
-              type='submit'
-              bg='teal.300'
               fontSize='10px'
-              color='white'
-              fontWeight='bold'
+              type='submit'
+              bg='#457F3F'  // Cor de fundo normal
               w='100%'
               h='45'
-              mb='24px'
+              mb='20px'
+              color='white'
+              mt='20px'
               _hover={{
-                bg: "teal.200",
+                bg: "#457F3F",  // Cor de fundo quando o mouse está sobre o botão
+                opacity: 0.8,  // Você pode adicionar uma opacidade para diferenciar o estado hover
               }}
               _active={{
-                bg: "teal.400",
+                bg: "#457F3F",  // Cor de fundo quando o botão é clicado
+                opacity: 0.6,  // Você pode adicionar uma opacidade para diferenciar o estado ativo
               }}>
-              SIGN UP
+              Registrar
             </Button>
-          </FormControl>
+
+                      </FormControl>
           <Flex
             flexDirection='column'
             justifyContent='center'
@@ -220,13 +222,13 @@ function SignUp() {
             maxW='100%'
             mt='0px'>
             <Text color={textColor} fontWeight='medium'>
-              Already have an account?
+              Você ja tem uma conta?
               <Link
                 color={titleColor}
                 ms='5px'
                 href='#/auth/signin'
                 fontWeight='bold'>
-                Sign In
+                Entrar
               </Link>
             </Text>
           </Flex>

@@ -4,6 +4,7 @@ import {
     Box,
     Button, Flex,
     Link,
+    Image,
     Stack,
     Text,
     useColorModeValue
@@ -102,7 +103,7 @@ const SidebarContent = ({ logoText, routes }) => {
                   <Icon>{prop.icon}</Icon>
                 ) : (
                   <IconBox
-                    bg="teal.300"
+                    bg="#457F3F"
                     color="white"
                     h="30px"
                     w="30px"
@@ -153,7 +154,7 @@ const SidebarContent = ({ logoText, routes }) => {
                 ) : (
                   <IconBox
                     bg={inactiveBg}
-                    color="teal.300"
+                    color="#457F3F"
                     h="30px"
                     w="30px"
                     me="12px"
@@ -190,7 +191,7 @@ const SidebarContent = ({ logoText, routes }) => {
         alignItems="center"
         fontSize="11px"
       >
-        <CreativeTimLogo w="32px" h="32px" me="10px" />
+        <Image src="https://imgur.com/sJ8WP54.png" width="128px" height="128px" marginRight="10px" />
         <Text fontSize="sm" mt="3px">
           {logoText}
         </Text>

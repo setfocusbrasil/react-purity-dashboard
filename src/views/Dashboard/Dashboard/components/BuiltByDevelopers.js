@@ -15,7 +15,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
 const BuiltByDevelopers = ({ title, name, description, image }) => {
-  const textColor = useColorModeValue("gray.700", "white");
+  const textColor = "#457F3F";
 
   return (
     <Card minHeight='290.5px' p='1.2rem'>
@@ -50,7 +50,7 @@ const BuiltByDevelopers = ({ title, name, description, image }) => {
                   transition='all .5s ease'
                   my={{ sm: "1.5rem", lg: "0px" }}
                   _hover={{ me: "4px" }}>
-                  Read more
+                  Leia mais
                 </Text>
                 <Icon
                   as={BsArrowRight}

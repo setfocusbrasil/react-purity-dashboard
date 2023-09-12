@@ -24,19 +24,19 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Email me when someone follows me
+            Envie-me um e-mail quando alguém me seguir
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Email me when someone answers on my post
+            Envie-me um e-mail quando alguém responder à minha postagem
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Email me when someone mentions me
+            Envie-me um e-mail quando alguém me mencionar
             </Text>
           </Flex>
           <Text
@@ -49,19 +49,19 @@ const PlatformSettings = ({ title, subtitle1, subtitle2 }) => {
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              New launches and projects
+            Novos lançamentos e projetos
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Monthly product changes
+            Mudanças mensais de produtos
             </Text>
           </Flex>
           <Flex align='center' mb='20px'>
             <Switch colorScheme='teal' me='10px' />
             <Text noOfLines={1} fontSize='md' color='gray.500' fontWeight='400'>
-              Subscribe to newsletter
+            Assine o boletim informativo
             </Text>
           </Flex>
         </Flex>

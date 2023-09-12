@@ -8,7 +8,7 @@ import InvoicesRow from "components/Tables/InvoicesRow";
 import React from "react";
 
 const Invoices = ({ title, data }) => {
-  const textColor = useColorModeValue("gray.700", "white");
+  const textColor = "#457F3F";
 
   return (
     <Card
@@ -27,7 +27,7 @@ const Invoices = ({ title, data }) => {
             variant='outline'
             fontSize='xs'
             p='8px 32px'>
-            VIEW ALL
+            VER TUDO
           </Button>
         </Flex>
       </CardHeader>

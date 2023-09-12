@@ -34,7 +34,7 @@ function Billing() {
             gap='26px'>
             <CreditCard
               backgroundImage={BackgroundCard1}
-              title={"Purity UI"}
+              title={"Painel UDOP"}
               number={"7812 2139 0823 XXXX"}
               validity={{
                 name: "VALID THRU",
@@ -54,20 +54,20 @@ function Billing() {
               }
             />
             <PaymentStatistics
-              icon={<Icon h={"24px"} w={"24px"} color='white' as={FaWallet} />}
-              title={"Salary"}
-              description={"Belong interactive"}
+              icon={<Icon h={"24px"} w={"24px"} color='white' as={FaWallet}  />}
+              title={"Salário"}
+              description={"Pertencer interativo"}
               amount={2000}
             />
             <PaymentStatistics
               icon={<Icon h={"24px"} w={"24px"} color='white' as={FaPaypal} />}
               title={"Paypal"}
-              description={"Freelance Payment"}
+              description={"Pagamento autônomo"}
               amount={4550}
             />
           </Grid>
           <PaymentMethod
-            title={"Payment Method"}
+            title={"Forma de pagamento"}
             mastercard={{
               icon: <MastercardIcon w='100%' h='100%' />,
               number: "7812 2139 0823 XXXX",
@@ -78,12 +78,12 @@ function Billing() {
             }}
           />
         </Box>
-        <Invoices title={"Invoices"} data={invoicesData} />
+        <Invoices title={"Faturas"} data={invoicesData} />
       </Grid>
       <Grid templateColumns={{ sm: "1fr", lg: "1.6fr 1.2fr" }}>
-        <BillingInformation title={"Billing Information"} data={billingData} />
+        <BillingInformation title={"Informações de pagamento"} data={billingData} />
         <Transactions
-          title={"Your Transactions"}
+          title={"Suas transações"}
           date={"23 - 30 March"}
           newestTransactions={newestTransactions}
           olderTransactions={olderTransactions}

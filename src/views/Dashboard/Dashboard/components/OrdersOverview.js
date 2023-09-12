@@ -8,8 +8,7 @@ import TimelineRow from "components/Tables/TimelineRow";
 import React from "react";
 
 const OrdersOverview = ({ title, amount, data }) => {
-  const textColor = useColorModeValue("gray.700", "white");
-
+  const textColor =  "#457F3F";
   return (
     <Card maxH='100%'>
       <CardHeader p='22px 0px 35px 14px'>
@@ -21,7 +20,7 @@ const OrdersOverview = ({ title, amount, data }) => {
             <Text fontWeight='bold' as='span' color='teal.300'>
               {`${amount}%`}
             </Text>{" "}
-            this month.
+            este mês.
           </Text>
         </Flex>
       </CardHeader>
